@@ -1,0 +1,219 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.a{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(32, 29, 29, 0.5), rgba(74, 68, 68, 0.5)), url(CashBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .logo a{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+}
+
+header .a_navbar ul{
+    list-style: none;
+}
+
+header .a_navbar ul li{
+    float: left;
+}
+
+header .a_navbar ul li a{
+    font-size: 16px;
+    padding: 15px;
+    color: white;
+    position: relative;
+}
+
+header .a_navbar ul li a::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+header .a_navbar ul li a:hover::after{
+    width: 100%;
+}
+
+.a_content{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icon{
+    padding: 15px 25px;
+    color: yellow;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.video a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.second{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    margin-top: 40px;
+    margin-left: 250px;
+    width: 400px;
+    height: 250px;
+    background-color: yellow;
+    font-size: 25px;
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    left: 55px;
+    bottom: 10px;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+}
+
+.text1{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.line{
+    margin-left: 50px;
+    padding: 65px 10px;
+}
+
+span{
+    font-size: 50px;
+}
+
+.right{
+    margin-top: 40px;
+    margin-right: 250px;
+    width: 400px;
+    height: 250px;
+    position: relative;
+}
+
+.word{
+    line-height: 2;
+}
+
+.learn{
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+}
+
+.text2{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+hr{
+    height: 1px;
+    opacity: 0.2;
+}
+
+.third{
+    height: 275px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i{
+    font-size: 35px;
+    color: yellow;
+    margin-right: 20px;
+}
+
+.square p{
+    color: grey;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.square h5{
+    font-size: 16px;
+}
+
+.square a{
+    color: rgb(255, 255, 0);
+    position: relative;
+}
+
+.square a::after{
+    content: '';
+    position: absolute;
+    background-color: yellow;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.square a:hover::after{
+    width: 100%;
+}
